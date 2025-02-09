@@ -1,1 +1,1 @@
-experimenting with some AI APIs.
+This repo is for experimenting with AI APIs for my side projects.
