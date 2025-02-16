@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 
 env = load_dotenv('.env')
-client = genai.Client(api_key=env['API_KEY'])
+client = genai.Client(api_key=env['GOOGLE_API'])
 
 response = client.models.generate_content(
     model="gemini-2.0-flash",
